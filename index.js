@@ -47,31 +47,30 @@ function start(){
         switch (ans.home){
             case"View all departments":              
                department(db);
-               start();
+               
                 break;
             case "View all roles":
                 roles(db);
-                start();
+                
                 break;
             case "View all employees":
                 employees(db);
-                start();
+                
                 break;
             case "Add a department":
                 addDepartment(db);
-                start();
+                
                 break;
             case "Add a role":
                  addRole(db);
-                 start();
+                 
                  break;
             case "Add an employee":
                 addEmployee(db);
-                start();
+                
                 break;
             case "Update an employee role":
               updateEmployee(db);
-              start();
               break;
             case "Quit":
               console.log("Goodbye");
